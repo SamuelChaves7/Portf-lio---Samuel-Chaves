@@ -1,0 +1,197 @@
+.dark {
+    background: linear-gradient(67deg, #2D1460 50%, #2C1561 20%, #1E24AE 90%);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.dark::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background: linear-gradient(to top, #2D1460, #1E24AE);
+}
+
+.dark .forma {
+    opacity: 0;
+}
+
+.dark .clouds {
+    display: none;
+}
+
+.dark header {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    position: fixed;
+    height: 10%;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    background: linear-gradient(37deg, #2D1460 20%, #2C1561 40%, #1E24AE 90%);
+}
+
+.dark .nome h1 a {
+    color: #ffffff;
+}
+
+.dark .nome h1 a span {
+    font-weight: 500;
+    color: #48C26B;
+}
+
+.dark header nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: .5s;
+}
+
+.dark .texto-inicio {
+    color: #fff;
+}
+
+.dark .texto-inicio h1 {
+    color: #48C26B;
+}
+
+.dark .container-typing p span.typed-text {
+    color: #48C26B;
+}
+
+.dark .container-typing p span.cursor {
+    background-color: #ccc;
+}
+
+.dark .redes a i {
+    color: #fff;
+}
+
+.dark .sobre h1 {
+    color: #48C26B;
+}
+
+.dark .projetos h1 {
+    color: #48C26B;
+}
+
+.dark .text-sobre p {
+    color: #fff;
+}
+
+.dark .image-sobre p {
+    color: #fff;
+    /* text-align: left; */
+}
+
+.dark .skills h1 {
+    color: #48C26B;
+}
+
+.dark .pt-1 i,
+.dark .pt-2 i {
+    color: #fff;
+}
+
+.dark .pt-1 p {
+    color: #fff;
+}
+
+.dark .pt-2 p {
+    color: #fff;
+}
+
+.dark .text-projects h1 {
+    color: #48C26B;
+}
+
+.dark .description h2 {
+    color: #fff;
+}
+
+.dark .description p {
+    color: #fff;
+}
+
+.dark .description h5 {
+    color: #fff;
+}
+
+.dark .text-contact h1 {
+    color: #48C26B;
+}
+
+.dark .text-contact p {
+    color: #fff;
+}
+
+.dark form h2 {
+    color: #48C26B;
+}
+
+.dark form input {
+    background-color: #fff;
+}
+
+.dark form input::placeholder,
+.dark textarea::placeholder {
+    color: #111;
+}
+
+.dark form textarea {
+    background-color: #fff;
+}
+
+.dark form a {
+    background-color: #fff;
+    color: #111;
+}
+
+.dark footer {
+    background-color: #1C0C40;
+}
+
+.dark footer h3 {
+    color: #48C26B;
+}
+
+.dark footer a {
+    color: #ffffff;
+}
+
+.dark footer p {
+    color: #fff;
+}
+
+.dark footer a i {
+    color: #fff;
+}
+
+.dark .mobile i {
+    color: #fff;
+}
+
+.dark form input,
+.dark form textarea {
+    color: #111;
+}
+
+.dark .nav-list {
+    background-color: #2D1460;
+}
+
+@media (max-width: 850px) {
+
+    .dark header {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+}
+
+@media (max-width: 430px) {
+    .dark .image-project p {
+        text-align: center;
+    }
+
+}

@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Samuel Chaves">
+    <title>'CHAVES.dev</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="dark.css">
+</head>
+
+<body>
+
+    <video src="bg video.mp4" autoplay muted loop id="darkmode-video"></video>
+    <section class="content">
+        <!-- Menu fixo -->
+
+        <header>
+            <div class="nome">
+                <h1><a href="#home">Samuel <span>Chaves</span></a></h1>
+            </div>
+
+            <nav class="desktop">
+                <ul>
+                    <li>
+                        <a href="#sobre-mim">Sobre Mim</a>
+                    </li>
+
+                    <li>
+                        <a href="#skills">Skills</a>
+                    </li>
+
+                    <li>
+                        <a href="#projects">Projetos</a>
+                    </li>
+
+                    <li>
+                        <a href="#contact">Fale Comigo!</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <nav class="mobile">
+                <nav class="navbar">
+                    <div class="navbar-container">
+                        <i class="fa-solid fa-bars" class="navbar-toggle" id="js-navbar-toggle"></i>
+                        <ul class="nav-list" id="js-menu">
+                            <li><a href="#home" class="nav-link">Home</a></li>
+                            <li><a href="#sobre-mim" class="nav-link">Sobre Mim</a></li>
+
+
+                            <li><a href="#skills" class="nav-link">Skills</a></li>
+
+
+                            <li><a href="#projects" class="nav-link">Projetos</a></li>
+
+
+                            <li><a href="#contact" class="nav-link">Fale Comigo!</a></li>
+
+                        </ul>
+                    </div>
+                </nav>
+
+
+            </nav>
+
+            <!-- parte da passagem modo claro/escuro -->
+
+            <div class="btn-darkmode">
+                <input type="checkbox" class="checkbox" id="chk" onclick="darkmode()">
+                <label class="label" for="chk">
+                    <i class="fa-regular fa-moon"></i>
+                    <i class="fa-solid fa-sun"></i>
+                    <div class="ball"></div>
+                </label>
+            </div>
+
+        </header>
+
+        <!-- começo -->
+        <aside id="home">
+
+            <div>
+                <div class="texto-inicio">
+                    <p>Olá! Meu nome é</p>
+                    <h1>Samuel Chaves</h1>
+                    <div class="container-typing">
+                        <p><span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
+                    </div>
+                    <p>Eu construo sites com foco em design responsivo e <br> acessibilidade.</p>
+                    <div class="redes">
+                        <a href="https://www.instagram.com/samuel_chaves7/">
+                            <i class="fa-brands fa-square-instagram"></i>
+                        </a>
+
+                        <a href="https://github.com/SamuelChaves7">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/samuel-chaves-722584316/">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+
+                        <a href="#contact">
+                            <i class="fa-solid fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="clouds">
+                <img src="https://preview.colorlib.com/theme/hami/img/core-img/cloud-1.png" alt="" class="cloud-1">
+                <img src="https://preview.colorlib.com/theme/hami/img/core-img/cloud-2.png" alt="" class="cloud-2">
+                <img src="https://preview.colorlib.com/theme/hami/img/core-img/cloud-3.png" alt="" class="cloud-3">
+                <img src="https://preview.colorlib.com/theme/hami/img/core-img/cloud-4.png" alt="" class="cloud-4">
+                <img src="https://preview.colorlib.com/theme/hami/img/core-img/cloud-5.png" alt="" class="cloud-5">
+            </div>
+
+
+        </aside>
+
+        <!-- Sobre mim  -->
+        <section class="sobre" id="sobre-mim">
+            <div class="text-sobre">
+
+                <h1>Sobre Mim</h1>
+
+                <div class="flex-sobre">
+                    <div class="image-sobre">
+                        <img src="/img/profile.png" alt="">
+                        <p>Esse sou eu! :D</p>
+                    </div>
+
+                    <p class="description-sobre">
+                        Sou Samuel, um desenvolvedor júnior com uma paixão por tecnologia e inovação e estou sempre
+                        entusiasmado por aprender novas linguagens e ferramentas. <br> Estou cursando técnico em
+                        Tecnologia da Informação no Colégio COTEMIG.
+                    </p>
+                </div>
+            </div>
+
+
+        </section>
+
+        <!-- skills -->
+        <section class="skills" id="skills">
+
+            <h1>Skills</h1>
+
+            <div class="habilidades">
+                <div class="pt-1">
+                    <div>
+                        <i class="fa-brands fa-html5"></i>
+                        <p>HTML5</p>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-css3-alt"></i>
+                        <p>CSS3</p>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-js"></i>
+                        <p class="js">JavaScript</p>
+                    </div>
+                </div>
+                <div class="pt-2">
+                    <div>
+                        <i class="fa-solid fa-database"></i>
+                        <p>SQL</p>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-figma"></i>
+                        <p class="ux">UX/UI</p>
+                    </div>
+                    <div class="c-s">
+                        <div class="iconC-Sharp">
+                            <i class="fa-solid fa-c"></i>
+                            <i class="fa-solid fa-hashtag"></i>
+                        </div>
+                        <p>C Sharp</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- projetos -->
+        <section class="projetos" id="projects">
+            <!-- tenis -->
+            <div class="container">
+                <div class="text-projects">
+                    <h1>Projetos</h1>
+                    <div class="carousel-container">
+                        <div class="carousel">
+                            <div class="slide">
+                                <a href="https://cars-caroussel.netlify.app/"><img src="img/cars.png" alt="Foto 1"></a>
+                                <div class="description">
+                                    <div>
+                                        Cars Website
+                                        <button class="button x">
+                                            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#ffffff">
+                                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round"
+                                                    stroke-linejoin="round"></g>
+                                                <g id="SVGRepo_iconCarrier">
+                                                    <title>github</title>
+                                                    <rect width="24" height="24" fill="none"></rect>
+                                                    <path
+                                                        d="M12,2A10,10,0,0,0,8.84,21.5c.5.08.66-.23.66-.5V19.31C6.73,19.91,6.14,18,6.14,18A2.69,2.69,0,0,0,5,16.5c-.91-.62.07-.6.07-.6a2.1,2.1,0,0,1,1.53,1,2.15,2.15,0,0,0,2.91.83,2.16,2.16,0,0,1,.63-1.34C8,16.17,5.62,15.31,5.62,11.5a3.87,3.87,0,0,1,1-2.71,3.58,3.58,0,0,1,.1-2.64s.84-.27,2.75,1a9.63,9.63,0,0,1,5,0c1.91-1.29,2.75-1,2.75-1a3.58,3.58,0,0,1,.1,2.64,3.87,3.87,0,0,1,1,2.71c0,3.82-2.34,4.66-4.57,4.91a2.39,2.39,0,0,1,.69,1.85V21c0,.27.16.59.67.5A10,10,0,0,0,12,2Z">
+                                                    </path>
+                                                </g>
+                                            </svg>
+                                            Continue with Github
+                                        </button>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="slide">
+                                <a href="https://shoes-website-trainning.netlify.app/"><img src="img/tenis.png" alt="Foto 2"></a>
+                                <div class="description">
+                                    <div>
+                                        Tênis Website
+                                        <button class="button x">
+                                            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#ffffff">
+                                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round"
+                                                    stroke-linejoin="round"></g>
+                                                <g id="SVGRepo_iconCarrier">
+                                                    <title>github</title>
+                                                    <rect width="24" height="24" fill="none"></rect>
+                                                    <path
+                                                        d="M12,2A10,10,0,0,0,8.84,21.5c.5.08.66-.23.66-.5V19.31C6.73,19.91,6.14,18,6.14,18A2.69,2.69,0,0,0,5,16.5c-.91-.62.07-.6.07-.6a2.1,2.1,0,0,1,1.53,1,2.15,2.15,0,0,0,2.91.83,2.16,2.16,0,0,1,.63-1.34C8,16.17,5.62,15.31,5.62,11.5a3.87,3.87,0,0,1,1-2.71,3.58,3.58,0,0,1,.1-2.64s.84-.27,2.75,1a9.63,9.63,0,0,1,5,0c1.91-1.29,2.75-1,2.75-1a3.58,3.58,0,0,1,.1,2.64,3.87,3.87,0,0,1,1,2.71c0,3.82-2.34,4.66-4.57,4.91a2.39,2.39,0,0,1,.69,1.85V21c0,.27.16.59.67.5A10,10,0,0,0,12,2Z">
+                                                    </path>
+                                                </g>
+                                            </svg>
+                                            Continue with Github
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slide">
+                                <a href="https://solar-system-prototype.netlify.app/"><img src="img/solar-system.png"
+                                        alt="Foto 3"></a>
+                                <div class="description">
+                                    <div>
+                                        Sistema Solar
+                                        <button class="button x">
+                                            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#ffffff">
+                                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round"
+                                                    stroke-linejoin="round"></g>
+                                                <g id="SVGRepo_iconCarrier">
+                                                    <title>github</title>
+                                                    <rect width="24" height="24" fill="none"></rect>
+                                                    <path
+                                                        d="M12,2A10,10,0,0,0,8.84,21.5c.5.08.66-.23.66-.5V19.31C6.73,19.91,6.14,18,6.14,18A2.69,2.69,0,0,0,5,16.5c-.91-.62.07-.6.07-.6a2.1,2.1,0,0,1,1.53,1,2.15,2.15,0,0,0,2.91.83,2.16,2.16,0,0,1,.63-1.34C8,16.17,5.62,15.31,5.62,11.5a3.87,3.87,0,0,1,1-2.71,3.58,3.58,0,0,1,.1-2.64s.84-.27,2.75,1a9.63,9.63,0,0,1,5,0c1.91-1.29,2.75-1,2.75-1a3.58,3.58,0,0,1,.1,2.64,3.87,3.87,0,0,1,1,2.71c0,3.82-2.34,4.66-4.57,4.91a2.39,2.39,0,0,1,.69,1.85V21c0,.27.16.59.67.5A10,10,0,0,0,12,2Z">
+                                                    </path>
+                                                </g>
+                                            </svg>
+                                            Continue with Github
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slide">
+                                <a href="https://5estrelasdelivery.netlify.app"><img src="img/delivery.png"
+                                        alt="Foto 4"></a>
+                                <div class="description">
+                                    <div>
+                                        Site Delivery
+                                        <button class="button x">
+                                            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#ffffff">
+                                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round"
+                                                    stroke-linejoin="round"></g>
+                                                <g id="SVGRepo_iconCarrier">
+                                                    <title>github</title>
+                                                    <rect width="24" height="24" fill="none"></rect>
+                                                    <path
+                                                        d="M12,2A10,10,0,0,0,8.84,21.5c.5.08.66-.23.66-.5V19.31C6.73,19.91,6.14,18,6.14,18A2.69,2.69,0,0,0,5,16.5c-.91-.62.07-.6.07-.6a2.1,2.1,0,0,1,1.53,1,2.15,2.15,0,0,0,2.91.83,2.16,2.16,0,0,1,.63-1.34C8,16.17,5.62,15.31,5.62,11.5a3.87,3.87,0,0,1,1-2.71,3.58,3.58,0,0,1,.1-2.64s.84-.27,2.75,1a9.63,9.63,0,0,1,5,0c1.91-1.29,2.75-1,2.75-1a3.58,3.58,0,0,1,.1,2.64,3.87,3.87,0,0,1,1,2.71c0,3.82-2.34,4.66-4.57,4.91a2.39,2.39,0,0,1,.69,1.85V21c0,.27.16.59.67.5A10,10,0,0,0,12,2Z">
+                                                    </path>
+                                                </g>
+                                            </svg>
+                                            Continue with Github
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="controls">
+                            <button class="control" onclick="prevSlide()">&#10094;</button>
+                            <button class="control" onclick="nextSlide()">&#10095;</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+        <!-- contato -->
+        <section class="contato" id="contact">
+
+            <div class="container-contact">
+                <div class="text-contact">
+                    <h1>Fale Comigo!</h1>
+                    <p>
+                        Quer discutir uma solução personalizada ou tem um projeto em mente? Estou aqui para ajudar a
+                        torná-lo realidade.
+                    </p>
+                </div>
+                <div class="form">
+                    <form action="#">
+                        <h2>Mande sua mensagem</h2>
+                        <div>
+                            <input type="text" placeholder="Nome Completo">
+                            <input type="email" placeholder="Email">
+                            <input type="tel" placeholder="Telefone">
+                            <textarea name="mensagem" placeholder="Mensagem"></textarea>
+                        </div>
+                        <a href="#">Enviar</a>
+                    </form>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- footer -->
+        <footer>
+            <div class="nome-footer">
+                <h3>Samuel Chaves</h3>
+                <p>Email: samuelcunhachaves@gmail.com</p>
+            </div>
+            <div class="rede-footer">
+                <a href="https://www.instagram.com/samuel_chaves7/">
+                    <i class="fa-brands fa-square-instagram"></i>
+                    samuel_chaves7
+                </a>
+                <a href="https://github.com/SamuelChaves7">
+                    <i class="fa-brands fa-github"></i>
+                    Samuel_Chaves7
+                </a>
+
+                <a href="https://www.linkedin.com/in/samuel-chaves-722584316/">
+                    <i class="fa-brands fa-linkedin"></i>
+                    Samuel Chaves
+                </a>
+            </div>
+        </footer>
+
+    </section>
+
+
+
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/5553e94d09.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
